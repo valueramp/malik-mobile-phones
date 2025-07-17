@@ -86,29 +86,35 @@
         padding: 15px 0;
       }
     }
+    /* Buttons container */
+    .button-group {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .button-group button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 1em;
+      cursor: pointer;
+      border: none;
+      border-radius: 4px;
+      background-color: #0070c9;
+      color: white;
+      transition: background-color 0.3s;
+    }
+    .button-group button:hover {
+      background-color: #005fa3;
+    }
   </style>
 </head>
 <body>
-  
+
 <header>
   <h1>Malik Mobile Phones</h1>
   <p>Fast, reliable MacBook & iPhone repairs in Bur Dubai</p>
 </header>
 
 <main>
-  <main>
-  <!-- Existing content like services, contact, testimonials -->
-
-  <!-- Add buttons here -->
-  <div style="text-align:center; margin: 20px 0;">
-    <button style="padding:10px 20px; margin:5px;">Button 1</button>
-    <button style="padding:10px 20px; margin:5px;">Button 2</button>
-    <button style="padding:10px 20px; margin:5px;">Button 3</button>
-    <button style="padding:10px 20px; margin:5px;">Button 4</button>
-    <button style="padding:10px 20px; margin:5px;">Button 5</button>
-  </div>
-
-</main>
   <section id="services">
     <h2>Our Services</h2>
     <ul>
@@ -122,25 +128,9 @@
     </ul>
   </section>
 
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Call or WhatsApp us anytime at:</p>
-    <p><strong>00971528959257</strong></p>
-    <a href="tel:+971528959257" class="contact-btn">Call Now</a>
-    <a href="https://wa.me/971528959257" target="_blank" class="contact-btn" style="background:#25D366; margin-left:10px;">WhatsApp</a>
-    <p style="margin-top:15px;"><strong>Working Hours:</strong> Open 7 days a week, 9 AM – 11 PM</p>
-  </section>
-
-  <section id="testimonials">
-    <h2>What Our Customers Say</h2>
-    <div class="testimonial">"Quick and professional service! My MacBook screen looks brand new again." – Sarah K.</div>
-    <div class="testimonial">"Malik Mobile Phones fixed my iPhone battery the same day. Highly recommend!" – Ahmed R.</div>
-  </section>
-</main>
-
-<footer>
-  &copy; 2025 Malik Mobile Phones — Bur Dubai. All rights reserved.
-</footer>
-
-</body>
-</html>
+  <!-- Buttons added here -->
+  <div class="button-group">
+    <button>Button 1</button>
+    <button>Button 2</button>
+    <button>Button 3</button>
+    <button>
